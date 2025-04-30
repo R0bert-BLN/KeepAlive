@@ -1,0 +1,8 @@
+cffi==1.17.1
+pillow==11.2.1
+pycparser==2.22
+pygame==2.6.1
+pywin32==310
+sounddevice==0.5.1
+ttkbootstrap==1.12.1
+winshell==0.6
