@@ -9,21 +9,17 @@ Users can:
 *   Adjust the playback volume.
 *   Set the interval (in minutes) between sound plays.
 
-<!-- TODO: Replace this comment and the line below with a real screenshot of your application -->
 ![KeepAlive App Screenshot](./assets/keepalive.png)
 
 ## Features
-*   **Selective Device Monitoring:** Choose specific audio output device names. The sound only plays if at least one of the selected devices is connected.
 *   **Customizable Audio:** Select any MP3 or WAV file to use as the keep-alive sound.
 *   **Volume Control:** Adjust the playback volume via a slider.
 *   **Configurable Interval:** Set how often (in minutes) the sound should play.
-*   **Background Operation:** Monitoring runs in a separate thread, keeping the GUI responsive.
-*   **Modern GUI:** Uses [ttkbootstrap](https://ttkbootstrap.readthedocs.io/en/latest/) for themed tkinter widgets.
 *   **Device Detection:** Automatically lists available audio output devices.
 *   **Persistent Settings:** Saves your configuration (`headsets`, `sound_file`, `volume`, `interval`) to a `settings.json` file.
 
 ## Requirements
-*   **Python:** 3.8 or higher (adjust if you know a different minimum version)
+*   **Python:** 3.12 or higher 
 *   **Libraries:** See `requirements.txt`. Key dependencies include:
 
 ## Installation & Setup
